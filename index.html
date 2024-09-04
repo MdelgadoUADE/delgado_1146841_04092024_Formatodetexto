@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Ejercicio de IDs y clases CSS</title>
+    <!-- Entren a la hoja de estilo en el href del tag link de abajo y copienla -->
+    <link
+      rel="stylesheet"
+      href="ejercicio_clases_ids_css_starwars.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./css/better_styles.css" />
+  </head>
+  <body>
+    <h1>Los bandos de Star Wars</h1>
+    <p>(las originales, que eran la posta)</p>
+    <hr />
+    <h2>El imperio</h2>
+    <ul>
+      <li id="darth_vader_id" class="background_red">Líder: Darth Vader</li>
+      <img
+        src="./images/darth_vader.png"
+        alt="Imagen de Darth Vader"
+      /><br /><br />
+      <!-- Desconozco si este es el resultado que se busca, se anida la img para que la cubra el soldier_border y se pasa el bg_red a su propio p -->
+      <li class="soldier_border soldier_letter_spacing">
+        <p class="background_red">Tropa principal: Storm Trooper</p>
+        <img src="./images/storm_trooper.png" alt="Imagen de Storm Trooper" />
+      </li>
+      <br /><br />
+      <li class="support_units_text_align vehicle_text_transform">
+        Unidades de apoyo:
+        <ul>
+          <li class="background_red">Caminante</li>
+          <img
+            src="./images/caminante_at-at.png"
+            alt="Imagen de Caminante AT AT"
+          /><br /><br />
+          <li class="background_red">Tie Fighter</li>
+          <img
+            src="./images/tie_fighter.png"
+            alt="Imagen de un Tie Fighter"
+          /><br /><br />
+        </ul>
+      </li>
+    </ul>
+
+    <hr />
+
+    <h2>Los rebeldes</h2>
+    <ul>
+      <li id="luke_skywalker_id" class="background_blue">
+        Líder: Luke Skywalker
+      </li>
+      <img
+        src="./images/luke-skywalker-gay.png"
+        alt="Imagen de Luke Skywalker"
+      /><br /><br />
+      <li class="soldier_border soldier_letter_spacing">
+        <p class="background_blue">Tropa principal: Soldado cualunque</p>
+        <img
+          src="./images/Standard_rebel_soldiers.png"
+          alt="Imagen de soldado rebelde estandar"
+        />
+      </li>
+      <br /><br />
+      <li class="support_units_text_align vehicle_text_transform">
+        Unidades de apoyo:
+        <ul>
+          <li class="background_blue">Tanque</li>
+          <img
+            src="./images/T3-B.png"
+            alt="Imagen de un tanque rebelde T3 B"
+          /><br /><br />
+          <li class="background_blue">X-Wing</li>
+          <img
+            src="./images/Xwing.png"
+            alt="Imagen de un caza rebelde Ala X"
+          /><br /><br />
+        </ul>
+      </li>
+    </ul>
+    <hr />
+  </body>
+</html>

@@ -1,0 +1,33 @@
+.background_red {
+  background-color: red;
+}
+
+.background_blue {
+  background-color: blue;
+  /* Se que esto no se pide pero es para no quemarme las retinas */
+  color: white;
+}
+
+#darth_vader_id {
+  font-size: 1.5rem;
+}
+
+#luke_skywalker_id {
+  font-style: italic;
+}
+
+.soldier_border {
+  border-style: dashed;
+}
+
+.soldier_letter_spacing {
+  letter-spacing: 0.65rem;
+}
+
+.support_units_text_align {
+  text-align: center;
+}
+
+.vehicle_text_transform {
+  text-transform: uppercase;
+}
